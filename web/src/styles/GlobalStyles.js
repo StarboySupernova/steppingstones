@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
   }
   :root{
     --primary: #921F1F;
-    --secondary: #E46733;
+    --secondary: #9B2220;
     --darkBlue: #070747; 
     --darkPurple: #0E0034;
     --black-1: #0D121F;

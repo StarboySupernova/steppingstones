@@ -37,12 +37,19 @@ function FeaturedBlogs() {
   const spotlightBlogs = data.allSanitySpotlight.nodes[0].blogs;
   return (
     <FeaturedBlogsStyles>
+      <SectionTitle>Our Core Operations</SectionTitle>
+      <ParagraphText className="featuredBlogs__text">
+        We are a money market, we excel in seamless money, electricity, and
+        airtime transfers, both locally and across borders. Trust us to cater to
+        all your transfer needs with efficiency and reliability.
+      </ParagraphText>
+      <SectionTitle>Dedication & Reliability</SectionTitle>
+      <ParagraphText className="featuredBlogs__text">
+        Latest from us at Stepping Stones Group
+      </ParagraphText>
       <SectionTitle>Spotlight & Trending Posts</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
-        {new Date().getDate()}
-        {new Date().getDay()}
-        {new Date().getMonth().toLocaleString()}
-        {new Date().getFullYear()}
+        Latest from us at Stepping Stones Group
       </ParagraphText>
       <BlogGrid blogs={spotlightBlogs} />
     </FeaturedBlogsStyles>
