@@ -45,12 +45,12 @@ function FeaturedBlogs() {
       </ParagraphText>
       <SectionTitle>Dedication & Reliability</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
-        🌐 Connect with Confidence at Stepping Stones Group Internet Cafe! 🌐 At
-        Stepping Stones Group, our commitment to your connectivity is
+        🌐 Connect with Confidence at Stepping Stones Group Internet Cafes! 🌐
+        At Stepping Stones Group, our commitment to your connectivity is
         unwavering. 💪 Experience the pinnacle of reliability and dedication as
-        we provide a seamless internet experience in a vibrant and comfortable
-        setting. Your productivity matters, and we're here to ensure it thrives.
-        Trust the Stepping Stones difference! 🚀💻
+        we provide a smooth internet experience in a vibrant and comfortable
+        setting. Your productivity and customer satisfaction matters, and we're
+        here to ensure it thrives. Trust the Stepping Stones difference! 🚀💻
       </ParagraphText>
       <SectionTitle>Spotlight & Trending Posts</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
