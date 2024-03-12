@@ -45,7 +45,12 @@ function FeaturedBlogs() {
       </ParagraphText>
       <SectionTitle>Dedication & Reliability</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
-        Latest from us at Stepping Stones Group
+        🌐 Connect with Confidence at Stepping Stones Group Internet Cafe! 🌐 At
+        Stepping Stones Group, our commitment to your connectivity is
+        unwavering. 💪 Experience the pinnacle of reliability and dedication as
+        we provide a seamless internet experience in a vibrant and comfortable
+        setting. Your productivity matters, and we're here to ensure it thrives.
+        Trust the Stepping Stones difference! 🚀💻
       </ParagraphText>
       <SectionTitle>Spotlight & Trending Posts</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
@@ -57,6 +62,3 @@ function FeaturedBlogs() {
 }
 
 export default FeaturedBlogs;
-
-/// colors
-/// #1ff4b4 - light green, #2c313e - dark bluish, #cbdd46 - gold

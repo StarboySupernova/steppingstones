@@ -16,12 +16,12 @@ function HeroSection() {
               Stepping Stones Group Internet Cafes
             </h1>
             <ParagraphText className="hero__text">
-              "Welcome to Stepping Stones Group Internet Cafes, your gateway to
+              Welcome to Stepping Stones Group Internet Cafes, your gateway to
               seamless digital connectivity and productivity. Explore a variety
               of services designed specifically to cater to your requirements,
               uniquely created to enhance your online experience whether for
               work, study, or leisure. Step into a world of convenience and
-              innovation with Stepping Stones Group."
+              innovation with Stepping Stones Group.
             </ParagraphText>
             <SectionTitle>Our Expertise</SectionTitle>
             <ParagraphText className="hero__text">
@@ -32,9 +32,6 @@ function HeroSection() {
               days a week, from Sunday to Sunday. Choose us for continuous and
               reliable service – your gateway to uninterrupted online
               excellence.
-            </ParagraphText>
-            <ParagraphText className="featuredBlogs__text">
-              Where Every Click, Drives You Forward
             </ParagraphText>
             <ParagraphText>
               We are the top-up hub, the one-stop destination for all your
@@ -50,6 +47,9 @@ function HeroSection() {
             </Button>
             <ParagraphText>
               KAZANG • FLASH • iKHOKHA • BLUE LABEL • PREPAID24 • iPAY
+            </ParagraphText>
+            <ParagraphText className="featuredBlogs__text">
+              Where Every Click, Drives You Forward
             </ParagraphText>
           </div>
           <div className="right">
