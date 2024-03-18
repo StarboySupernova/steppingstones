@@ -33,21 +33,23 @@ function HeroSection() {
               reliable service – your gateway to uninterrupted online
               excellence.
             </ParagraphText>
+            <ParagraphText className="hero__text">
+              We are the top-up hub for for the following Point of Sale (POS)
+              terminal mobile vending machines
+            </ParagraphText>
+            <ParagraphText>KAZANG •</ParagraphText>
             <ParagraphText>
-              We are the top-up hub, the one-stop destination for all your
-              vending machine needs. We specialize in smooth shop-to-shop
-              transactions, serving as the central hub for spaza shops in the
-              vibrant communities of Midrand, Tembisa and especially Mayibuye.
-              Our dedicated service ensures a hassle-free experience, making it
-              convenient for businesses to manage their vending machine supplies
-              effortlessly.
+              FLASH • iKHOKHA • BLUE LABEL • PREPAID24 • iPAY
+            </ParagraphText>
+            <ParagraphText>
+              We facilitate smooth shop-to-shop transactions,for spaza shops in
+              the vibrant communities of Midrand & Tembisa. Our dedicated
+              service ensures a hassle-free experience, making it convenient for
+              businesses to top-up with us effortlessly.
             </ParagraphText>
             <Button to="/services" tag={Link} className="hero__button">
               Explore Our Services
             </Button>
-            <ParagraphText>
-              KAZANG • FLASH • iKHOKHA • BLUE LABEL • PREPAID24 • iPAY
-            </ParagraphText>
             <ParagraphText className="featuredBlogs__text">
               Where Every Click, Drives You Forward
             </ParagraphText>

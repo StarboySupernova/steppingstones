@@ -38,6 +38,25 @@ export const HeroSectionStyles = styled.div`
       .hero__button {
         margin-top: 1.5rem;
       }
+      /* Select the element by its class */
+      .kazang {
+        color: #c0c600;
+      }
+      .flash {
+        color: #2fc23a;
+      }
+      .vodapay {
+        color: #e60000;
+      }
+      .mtnMomo {
+        color: #fdca00;
+      }
+      .blu {
+        color: #132d6e;
+      }
+      .racellular {
+        color: #c856c5;
+      }
     }
     .right {
       position: absolute;
