@@ -33,13 +33,18 @@ function HeroSection() {
               excellence.
             </ParagraphText>
             <SectionTitle>Explore Our Tech Hub</SectionTitle>
-            <ParagraphText className="hero__text kazang">
+            <ParagraphText className="hero__text">
               We are the top-up hub for for the following Point of Sale (POS)
               terminal mobile vending machines
             </ParagraphText>
-            <ParagraphText>KAZANG •</ParagraphText>
-            <ParagraphText>
-              FLASH • iKHOKHA • BLUE LABEL • PREPAID24 • iPAY
+            <ParagraphText className="kazang inlineText">
+              KAZANG •
+            </ParagraphText>
+            <ParagraphText className="kazang inlineText">
+              KAZANG •
+            </ParagraphText>
+            <ParagraphText className="kazang inlineText">
+              KAZANG •
             </ParagraphText>
             <ParagraphText>
               We facilitate smooth shop-to-shop transactions,for spaza shops in

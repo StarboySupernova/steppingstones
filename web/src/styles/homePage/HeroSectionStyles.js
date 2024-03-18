@@ -39,7 +39,7 @@ export const HeroSectionStyles = styled.div`
         margin-top: 1.5rem;
       }
       /* Select the element by its class */
-      .inline-text {
+      .inlineText {
         display: inline; /* or inline-block */
       }
       .kazang {
