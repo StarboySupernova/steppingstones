@@ -12,16 +12,15 @@ function HeroSection() {
       <div className="container">
         <div className="hero__wrapper">
           <div className="left">
-            <h1 className="hero__heading">
-              Stepping Stones Group Internet Cafes
-            </h1>
+            <h1 className="hero__heading">Stepping Stones Group</h1>
+            <h1 className="hero__heading">Internet Cafes</h1>
             <ParagraphText className="hero__text">
               Welcome to Stepping Stones Group Internet Cafes, your gateway to
               seamless digital connectivity and productivity. Explore a variety
-              of services designed specifically to cater to your requirements,
-              uniquely created to enhance your online experience whether for
-              work, study, or leisure. Step into a world of convenience and
-              innovation with Stepping Stones Group.
+              of services uniquely created to cater to your requirements &
+              enhance your online experience, whether for work, study, or
+              leisure. Step into a world of convenience and innovation with
+              Stepping Stones Group.
             </ParagraphText>
             <SectionTitle>Our Expertise</SectionTitle>
             <ParagraphText className="hero__text">
@@ -33,7 +32,8 @@ function HeroSection() {
               reliable service – your gateway to uninterrupted online
               excellence.
             </ParagraphText>
-            <ParagraphText className="hero__text">
+            <SectionTitle>Explore Our Tech Hub</SectionTitle>
+            <ParagraphText className="hero__text kazang">
               We are the top-up hub for for the following Point of Sale (POS)
               terminal mobile vending machines
             </ParagraphText>
