@@ -41,6 +41,7 @@ export const HeroSectionStyles = styled.div`
       /* Select the element by its class */
       .inlineText {
         display: inline; /* or inline-block */
+        padding: 2px;
       }
       .kazang {
         color: #c0c600;
