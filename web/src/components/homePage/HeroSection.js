@@ -38,23 +38,21 @@ function HeroSection() {
               terminal mobile machines
             </ParagraphText>
             <ParagraphText className="kazang inlineText">
-              KAZANG •
+              • KAZANG •
             </ParagraphText>
             <ParagraphText className="flash inlineText">
-              Flash Mobile •
-            </ParagraphText>
-            <ParagraphText className="blu inlineText">
-              Blue Label Telecoms •
+              • Flash Mobile •
             </ParagraphText>
             <ParagraphText className="vodapay inlineText">
-              VodaPay •
+              • VodaPay •
             </ParagraphText>
             <ParagraphText className="mtnMomo inlineText">
-              MTN MoMo •
+              • MTN MoMo •
             </ParagraphText>
             <ParagraphText className="racellular inlineText">
-              R&A Cellular •
+              • R&A Cellular •
             </ParagraphText>
+            <ParagraphText className="blu inlineText">•Blu •</ParagraphText>
             <ParagraphText>
               We facilitate smooth shop-to-shop transactions,for spaza shops in
               the vibrant communities of Midrand & Tembisa. Our dedicated
