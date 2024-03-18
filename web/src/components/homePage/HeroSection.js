@@ -35,16 +35,25 @@ function HeroSection() {
             <SectionTitle>Explore Our Tech Hub</SectionTitle>
             <ParagraphText className="hero__text">
               We are the top-up hub for for the following Point of Sale (POS)
-              terminal mobile vending machines
+              terminal mobile machines
             </ParagraphText>
             <ParagraphText className="kazang inlineText">
               KAZANG •
             </ParagraphText>
-            <ParagraphText className="kazang inlineText">
-              KAZANG •
+            <ParagraphText className="flash inlineText">
+              Flash Mobile •
             </ParagraphText>
-            <ParagraphText className="kazang inlineText">
-              KAZANG •
+            <ParagraphText className="blu inlineText">
+              Blue Label Telecoms •
+            </ParagraphText>
+            <ParagraphText className="vodapay inlineText">
+              VodaPay •
+            </ParagraphText>
+            <ParagraphText className="mtnMomo inlineText">
+              MTN MoMo •
+            </ParagraphText>
+            <ParagraphText className="racellular inlineText">
+              R&A Cellular •
             </ParagraphText>
             <ParagraphText>
               We facilitate smooth shop-to-shop transactions,for spaza shops in
