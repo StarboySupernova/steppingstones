@@ -42,9 +42,9 @@ function Header() {
             </li>
           ))}
         </ul>
-          <div className="logo">
+          {/* <div className="logo">
             <Logo />
-          </div>
+          </div> */}
           <div className={clsx('nav__wrapper', isNavOpen && 'open')}>
             <div className="mobileIcon">
               <div className="searchIcon">
