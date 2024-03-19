@@ -49,3 +49,24 @@ export const socialLinks = [
     icon: <FcAndroidOs />,
   },
 ];
+
+
+export const headerLinks = [
+  {
+    name: '27761501409',
+    url: 'tel:+27761501409',
+    icon: <FaPhoneSquareAlt />,
+  },
+  {
+    name: 'Mail',
+    url: 'mailto:steppingstones.m02@gmail.com',
+    icon: <IoIosMailUnread />,
+  },
+  {
+    name: '278346590008',
+    url: `https://wa.me/27834659008?text=${encodeURIComponent(
+      'I would like to chat to an available Stepping Stones Representative'
+    )}`,
+    icon: <FaWhatsappSquare />,
+  },
+];

@@ -7,6 +7,7 @@ import Logo from './Logo';
 import ActionButton from './buttons/ActionButton';
 import { menu } from '../constants/menu';
 import { SearchModalContext } from '../contexts/searchModalContext';
+import { headerLinks } from '../constants/socialLinks';
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -34,6 +35,13 @@ function Header() {
     <HeaderStyles>
       <div className="container">
         <div className="header__container">
+        <ul className="footer__socialList">
+          {headerLinks.map((item) => (
+            <li key={item.name}>
+              <a href={item.url}>{item.icon}{item.name}</a>
+            </li>
+          ))}
+        </ul>
           <div className="logo">
             <Logo />
           </div>

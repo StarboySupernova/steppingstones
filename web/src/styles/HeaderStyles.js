@@ -15,6 +15,23 @@ export default styled.header`
     justify-content: space-between;
     align-items: center;
   }
+  .footer__socialList {
+    margin-top: 1.5rem;
+    li {
+      display: inline-block;
+      margin: 0 0.5rem;
+      a {
+        display: inline-block;
+        width: 20px;
+        color: var(--gray);
+      }
+      :hover {
+        a {
+          color: var(--white-1);
+        }
+      }
+    }
+  }
   .nav__wrapper {
     ul {
       display: flex;
