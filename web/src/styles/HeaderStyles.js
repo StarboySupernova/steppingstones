@@ -16,14 +16,15 @@ export default styled.header`
     align-items: center;
   }
   .footer__socialList {
-    margin-top: 0.5rem;
+    margin-top: 0.1rem;
     li {
-      display: inline-block;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       margin: 0 0.5rem;
       padding: 10px;
       a {
-        display: inline-block;
-        width: 70px;
+        width: 40px;
         color: var(--gray);
       }
       :hover {
