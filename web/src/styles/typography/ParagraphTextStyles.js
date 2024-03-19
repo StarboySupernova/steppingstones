@@ -12,7 +12,7 @@ export const ParagraphTextStyles = styled.p`
 
 export const ServiceParagraphTextStyles = styled.p`
   font-family: 'Inter', sans-serif;
-  color: #fcfcfa; //offwhite
+  color: #e6e6d3; //beige
   font-size: 1.6rem;
   line-height: 1.5;
   @media only screen and (max-width: 768px) {
