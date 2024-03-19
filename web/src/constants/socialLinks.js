@@ -53,7 +53,7 @@ export const socialLinks = [
 
 export const headerLinks = [
   {
-    name: '27761501409',
+    name: '0615823784',
     url: 'tel:+27761501409',
     icon: <FaPhoneSquareAlt />,
   },
@@ -63,7 +63,7 @@ export const headerLinks = [
     icon: <IoIosMailUnread />,
   },
   {
-    name: '278346590008',
+    name: '0769279483',
     url: `https://wa.me/27834659008?text=${encodeURIComponent(
       'I would like to chat to an available Stepping Stones Representative'
     )}`,

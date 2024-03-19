@@ -33,18 +33,18 @@ function Header() {
 
   return (
     <HeaderStyles>
-      <ul className="footer__socialList">
+      <div className="container">
+        <div className="header__container">
+        <ul className="footer__socialList">
           {headerLinks.map((item) => (
             <li key={item.name}>
-              <a href={item.url}>
-                {item.icon}
-                {item.name}
-              </a>
+              <a href={item.url}>{item.icon}{item.name}</a>
             </li>
           ))}
         </ul>
-      <div className="container">
-        <div className="header__container">
+          <div className="logo">
+            <Logo />
+          </div>
           <div className={clsx('nav__wrapper', isNavOpen && 'open')}>
             <div className="mobileIcon">
               <div className="searchIcon">
