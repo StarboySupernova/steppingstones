@@ -58,7 +58,7 @@ export const headerLinks = [
     icon: <FaPhoneSquareAlt />,
   },
   {
-    name: 'Mail',
+    name: 'steppingstones.m02@gmail.com',
     url: 'mailto:steppingstones.m02@gmail.com',
     icon: <IoIosMailUnread />,
   },
