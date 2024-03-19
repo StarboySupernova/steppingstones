@@ -16,23 +16,30 @@ export default styled.header`
     align-items: center;
   }
   .footer__socialList {
-    margin-top: 0.1rem;
-    li {
-      display: inline-block;
-      margin: 0 0.5rem;
-      padding: 30px;
-      a {
-        display: inline-block;
-        width: 40px;
-        color: var(--gray);
-      }
-      :hover {
-        a {
-          color: var(--white-1);
-        }
-      }
-    }
-  }
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer__socialList li {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Adjust spacing between items */
+}
+
+.footer__socialList li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit; /* Preserve link color */
+}
+
+/* Optional: Adjust icon size */
+.footer__socialList li svg {
+  width: 24px; /* Adjust icon width */
+  height: 24px; /* Adjust icon height */
+  margin-right: 5px; /* Adjust spacing between icon and name */
+}
   .nav__wrapper {
     ul {
       display: flex;
