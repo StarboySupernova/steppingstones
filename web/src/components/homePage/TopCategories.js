@@ -26,23 +26,12 @@ function TopCategories() {
   const services = data.allSanitySpotlight.nodes[0].category;
   return (
     <TopCategoriesStyles>
-      <SectionTitle>
-        Expert Document Services for Your Business Growth
-      </SectionTitle>
-      <ParagraphText>
-        We excel at crafting business proposals, drafting contracts, and
-        creating company profiles tailored to meet your specific needs. Trust
-        our highly qualified staff to provide professional documents that
-        effectively communicate your business goals and strengths. Our long
-        experience and skills in document creation will help support your
-        business and enhance your professional image.
-      </ParagraphText>
       <SectionTitle>Premier Technological Service</SectionTitle>
       <ParagraphText>
-        We specialize in offering a wide range of computers and accessories,
+        We specialize in offering a wide range of computers and accessories, and we excel at
         providing top-notch technology solutions to meet your needs. Our
         selection includes the latest in computing technology, ensuring you have
-        access to cutting-edge products.
+        access to cutting-edge products & services.
       </ParagraphText>
       <SectionTitle>Top Categories</SectionTitle>
       <ParagraphText>

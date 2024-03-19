@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CategoryItemStyles = styled.div`
-  background: #1f1f47;
+  background: #0e92f0;
   padding: 2rem;
   border-radius: 12px;
   .title {
