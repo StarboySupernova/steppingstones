@@ -34,27 +34,24 @@ function HeroSection() {
             </ParagraphText>
             <SectionTitle>Explore Our Tech Hub</SectionTitle>
             <ParagraphText className="hero__text">
-              We are the top-up hub for for the following Point of Sale (POS)
+              We are the top-up-hub for for the following Point of Sale (POS)
               terminal mobile machines
             </ParagraphText>
             <ParagraphText className="kazang inlineText">
-              • KAZANG •
+              Kazang •
             </ParagraphText>
-            <ParagraphText className="flash inlineText">
-              • Flash Mobile •
-            </ParagraphText>
+            <ParagraphText className="flash inlineText">Flash •</ParagraphText>
             <ParagraphText className="vodapay inlineText">
-              • VodaPay •
+              VodaPay •
             </ParagraphText>
             <ParagraphText className="mtnMomo inlineText">
-              • MTN MoMo •
+              MTN MoMo •
             </ParagraphText>
             <ParagraphText className="racellular inlineText">
-              • R&A Cellular •
+              and many more!
             </ParagraphText>
-            <ParagraphText className="blu inlineText">•Blu •</ParagraphText>
-            <ParagraphText>
-              We facilitate smooth shop-to-shop transactions,for spaza shops in
+            <ParagraphText className="hero__text">
+              We facilitate smooth shop-to-shop transactions, for spaza shops in
               the vibrant communities of Midrand & Tembisa. Our dedicated
               service ensures a hassle-free experience, making it convenient for
               businesses to top-up with us effortlessly.
