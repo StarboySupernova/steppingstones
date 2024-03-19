@@ -16,10 +16,11 @@ export default styled.header`
     align-items: center;
   }
   .footer__socialList {
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     li {
       display: inline-block;
       margin: 0 0.5rem;
+      padding: 10px;
       a {
         display: inline-block;
         width: 20px;

@@ -36,7 +36,10 @@ function Header() {
       <ul className="footer__socialList">
           {headerLinks.map((item) => (
             <li key={item.name}>
-              <a href={item.url}>{item.icon}{item.name}</a>
+              <a href={item.url}>
+                {item.icon}
+                {item.name}
+              </a>
             </li>
           ))}
         </ul>
