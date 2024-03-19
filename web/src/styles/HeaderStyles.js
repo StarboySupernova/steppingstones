@@ -20,7 +20,7 @@ export default styled.header`
     li {
       display: inline-block;
       margin: 0 0.5rem;
-      padding: 10px;
+      padding: 30px;
       a {
         display: inline-block;
         width: 40px;
