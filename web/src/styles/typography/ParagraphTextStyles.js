@@ -9,3 +9,15 @@ export const ParagraphTextStyles = styled.p`
     font-size: 1.4rem;
   }
 `;
+
+export const ServiceParagraphTextStyles = styled.p`
+  font-family: 'Inter', sans-serif;
+  color: #fcfcfa; //offwhite
+  font-size: 1.6rem;
+  line-height: 1.5;
+  @media only screen and (max-width: 768px) {
+    font-size: 1.4rem;
+  }
+`;
+
+

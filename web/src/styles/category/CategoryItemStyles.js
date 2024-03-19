@@ -9,6 +9,5 @@ export const CategoryItemStyles = styled.div`
   }
   .text {
     margin-bottom: 2rem;
-    color: #fcfcfa; //offwhite
   }
 `;

@@ -4,14 +4,14 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import theme from 'react-syntax-highlighter/dist/esm/styles/prism/vs-dark';
 import { getImage, getImageDimensions } from '@sanity/asset-utils';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import ParagraphText from './typography/ParagraphText';
+import ServiceParagraphText from './typography/ServiceParagraphText';
 import { Title } from './typography/Title';
 import sanityConfig from '../../sanity-config';
 import { getSanityImageData } from '../utils/getSanityImageData';
 
 const myPortableTextComponents = {
   block: {
-    normal: ({ children }) => <ParagraphText>{children}</ParagraphText>,
+    normal: ({ children }) => <ServiceParagraphText>{children}</ServiceParagraphText>,
     h1: ({ children }) => <Title>{children}</Title>,
   },
   marks: {
