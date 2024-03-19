@@ -40,6 +40,17 @@ export default styled.header`
   height: 24px; /* Adjust icon height */
   margin-right: 5px; /* Adjust spacing between icon and name */
 }
+.footer__socialList li:nth-child(1) a {
+  color: #0e92f0; /* Change color for the first item to a light blue*/
+}
+
+.footer__socialList li:nth-child(2) a {
+  color: #fcfcfa; /* Change color for the second item to offwhite */
+}
+
+.footer__socialList li:nth-child(3) a {
+  color: #0bd462; /* Change color for the third item to a greenish hue*/
+}
   .nav__wrapper {
     ul {
       display: flex;

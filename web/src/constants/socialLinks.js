@@ -54,7 +54,7 @@ export const socialLinks = [
 export const headerLinks = [
   {
     name: '0615823784',
-    url: 'tel:+27761501409',
+    url: 'tel:+27615823784',
     icon: <FaPhoneSquareAlt />,
   },
   {
@@ -64,7 +64,7 @@ export const headerLinks = [
   },
   {
     name: '0769279483',
-    url: `https://wa.me/27834659008?text=${encodeURIComponent(
+    url: `https://wa.me/27769279483?text=${encodeURIComponent(
       'I would like to chat to an available Stepping Stones Representative'
     )}`,
     icon: <FaWhatsappSquare />,
