@@ -23,6 +23,7 @@ export default styled.header`
       padding: 10px;
       a {
         display: inline-block;
+        width: 70px;
         color: var(--gray);
       }
       :hover {
