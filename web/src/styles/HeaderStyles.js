@@ -18,12 +18,12 @@ export default styled.header`
   .footer__socialList {
     margin-top: 0.1rem;
     li {
-      display: inline;
+      display: inline-block;
       margin: 0 0.5rem;
       padding: 10px;
       a {
-        display: inline;
-        width: 70px;
+        display: inline-block;
+        width: 40px;
         color: var(--gray);
       }
       :hover {
