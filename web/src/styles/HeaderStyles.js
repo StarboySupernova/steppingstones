@@ -19,6 +19,7 @@ export default styled.header`
     margin-top: 0.1rem;
     li {
       display: flex;
+      flex-direction: row;
       justify-content: space-between;
       align-items: center;
       margin: 0 0.5rem;
