@@ -1,14 +1,14 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
-import { HeroSectionStyles } from '../../styles/homePage/HeroSectionStyles';
+import { NewHeroSectionStyles } from '../../styles/homePage/HeroSectionStyles';
 import ParagraphText from '../typography/ParagraphText';
 import Button from '../buttons/Button';
 import { SectionTitle } from '../typography/Title';
 
 function HeroSection() {
   return (
-    <HeroSectionStyles>
+    <NewHeroSectionStyles>
       <div className="container">
         <div className="hero__wrapper">
           <div className="left">
@@ -74,7 +74,7 @@ function HeroSection() {
           </div>
         </div>
       </div>
-    </HeroSectionStyles>
+    </NewHeroSectionStyles>
   );
 }
 
