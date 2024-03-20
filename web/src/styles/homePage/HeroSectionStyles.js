@@ -158,7 +158,7 @@ export const NewHeroSectionStyles = styled.div`
         margin: 0.2rem 0;
       }
       .hero__text {
-        max-width: 350px;
+        max-width: 450px;
       }
       .hero__button {
         margin-top: 1.5rem;
