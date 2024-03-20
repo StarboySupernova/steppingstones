@@ -146,7 +146,7 @@ export const NewHeroSectionStyles = styled.div`
     }
     .right {
       width: 50%; /* Changed from width: 50% */
-      padding: 50px 0;
+      padding: 50px 10px;
       position: absolute; /* Added */
       right: 0; /* Added */
       top: 0; /* Added */
@@ -167,6 +167,10 @@ export const NewHeroSectionStyles = styled.div`
       .inlineText {
         display: inline; /* or inline-block */
         padding: 2px;
+      }
+      .text-right {
+        text-align: right;
+        padding: 10px;
       }
       .kazang {
         color: #c0c600;

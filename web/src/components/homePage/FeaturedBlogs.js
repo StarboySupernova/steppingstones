@@ -44,14 +44,14 @@ function FeaturedBlogs() {
           <div className="hero__wrapper">
             <div className="right">
               <SectionTitle>Our Core Operations</SectionTitle>
-              <ParagraphText className="hero__text">
+              <ParagraphText className="hero__text text-right">
                 We are a money market, we excel in seamless money, electricity,
                 and airtime transfers, both locally and across borders. Trust us
                 to cater to all your transfer needs with efficiency and
                 reliability.
               </ParagraphText>
               <SectionTitle>Dedication & Reliability</SectionTitle>
-              <ParagraphText className="hero__text">
+              <ParagraphText className="hero__text text-right">
                 🌐 Connect with Confidence at Stepping Stones Group Internet
                 Cafes! 🌐 At Stepping Stones Group, our commitment to your
                 connectivity is unwavering. 💪 Experience the pinnacle of
