@@ -1,11 +1,11 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 import { FeaturedBlogsStyles } from '../../styles/homePage/FeaturedBlogsStyles';
 import BlogGrid from '../blog/BlogGrid';
 import ParagraphText from '../typography/ParagraphText';
 import { SectionTitle } from '../typography/Title';
 import { NewHeroSectionStyles } from '../../styles/homePage/HeroSectionStyles';
-import MyGallery from './MyGallery';
 
 function FeaturedBlogs() {
   const data = useStaticQuery(graphql`
@@ -62,7 +62,13 @@ function FeaturedBlogs() {
               </ParagraphText>
             </div>
             <div className="left">
-              <MyGallery />
+              <StaticImage
+                className="hero__image"
+                src="../../images/VR.jpg"
+                alt="stepping stones hero image"
+                placeholder="blurred"
+                objectPosition="50% 30%"
+              />
             </div>
           </div>
         </div>
