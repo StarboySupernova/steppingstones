@@ -5,4 +5,11 @@ export const FeaturedBlogsStyles = styled.div`
   .featuredBlogs__text {
     max-width: 450px;
   }
+  .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+  }
 `;

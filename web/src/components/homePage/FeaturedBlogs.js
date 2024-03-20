@@ -44,7 +44,7 @@ function FeaturedBlogs() {
         all your transfer needs with efficiency and reliability.
       </ParagraphText>
       <SectionTitle>Dedication & Reliability</SectionTitle>
-      <ParagraphText className="featuredBlogs__text">
+      <ParagraphText className="right">
         🌐 Connect with Confidence at Stepping Stones Group Internet Cafes! 🌐
         At Stepping Stones Group, our commitment to your connectivity is
         unwavering. 💪 Experience the pinnacle of reliability and dedication as

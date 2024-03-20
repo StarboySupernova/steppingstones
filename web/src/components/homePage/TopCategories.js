@@ -28,10 +28,10 @@ function TopCategories() {
     <TopCategoriesStyles>
       <SectionTitle>Premier Technological Service</SectionTitle>
       <ParagraphText>
-        We specialize in offering a wide range of computers and accessories, and we excel at
-        providing top-notch technology solutions to meet your needs. Our
-        selection includes the latest in computing technology, ensuring you have
-        access to cutting-edge products & services.
+        We specialize in offering a wide range of computers and accessories, and
+        we excel at providing top-notch technology solutions to meet your needs.
+        Our selection includes the latest in computing technology, ensuring you
+        have access to cutting-edge products & services.
       </ParagraphText>
       <SectionTitle>Top Categories</SectionTitle>
       <ParagraphText>

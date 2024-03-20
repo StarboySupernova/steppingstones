@@ -50,7 +50,6 @@ export const socialLinks = [
   },
 ];
 
-
 export const headerLinks = [
   {
     name: '0615823784',
