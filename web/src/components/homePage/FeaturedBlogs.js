@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
-import ImageGallery from 'react-image-gallery';
+import { StaticImage } from 'gatsby-plugin-image';
 import { FeaturedBlogsStyles } from '../../styles/homePage/FeaturedBlogsStyles';
 import BlogGrid from '../blog/BlogGrid';
 import ParagraphText from '../typography/ParagraphText';
@@ -62,7 +62,13 @@ function FeaturedBlogs() {
               </ParagraphText>
             </div>
             <div className="left">
-              <ImageGallery items={images} />;
+              <StaticImage
+                className="hero__image"
+                src="../../images/undraw_internet_on_the_go_re_vben.svg"
+                alt="stepping stones hero image"
+                placeholder="blurred"
+                objectPosition="50% 30%"
+              />
             </div>
           </div>
         </div>
@@ -77,18 +83,3 @@ function FeaturedBlogs() {
 }
 
 export default FeaturedBlogs;
-
-const images = [
-  {
-    original: '../../images/VR.jpg',
-    thumbnail: 'https://picsum.photos/id/1018/250/150/',
-  },
-  {
-    original: '"../../images/VR.jpg"',
-    thumbnail: 'https://picsum.photos/id/1015/250/150/',
-  },
-  {
-    original: '"../../images/VR.jpg"',
-    thumbnail: 'https://picsum.photos/id/1019/250/150/',
-  },
-];
