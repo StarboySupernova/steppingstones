@@ -1,11 +1,11 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
+import ImageGallery from 'react-image-gallery';
 import { FeaturedBlogsStyles } from '../../styles/homePage/FeaturedBlogsStyles';
 import BlogGrid from '../blog/BlogGrid';
 import ParagraphText from '../typography/ParagraphText';
 import { SectionTitle } from '../typography/Title';
 import { NewHeroSectionStyles } from '../../styles/homePage/HeroSectionStyles';
-import MyGallery from './MyGallery';
 
 function FeaturedBlogs() {
   const data = useStaticQuery(graphql`
@@ -62,7 +62,7 @@ function FeaturedBlogs() {
               </ParagraphText>
             </div>
             <div className="left">
-              <MyGallery />
+              <ImageGallery items={images} />;
             </div>
           </div>
         </div>
@@ -77,3 +77,18 @@ function FeaturedBlogs() {
 }
 
 export default FeaturedBlogs;
+
+const images = [
+  {
+    original: '../../images/VR.jpg',
+    thumbnail: 'https://picsum.photos/id/1018/250/150/',
+  },
+  {
+    original: '"../../images/VR.jpg"',
+    thumbnail: 'https://picsum.photos/id/1015/250/150/',
+  },
+  {
+    original: '"../../images/VR.jpg"',
+    thumbnail: 'https://picsum.photos/id/1019/250/150/',
+  },
+];
