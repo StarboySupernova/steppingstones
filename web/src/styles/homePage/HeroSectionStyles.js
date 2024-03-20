@@ -129,7 +129,7 @@ export const NewHeroSectionStyles = styled.div`
       right: 0; /* Changed from left: 0 */
       width: 50%; /* Changed from width: 50% */
       height: 100%;
-      background: linear-gradient(135deg, #9b2220, #08011c);
+      background: linear-gradient(135deg, #08011c, #9b2220);
       z-index: -1;
     }
     .left {
